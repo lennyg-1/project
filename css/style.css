@@ -1,0 +1,113 @@
+body {
+    background-color: #c8a67a;
+    margin: 0 auto;
+    width: 100%
+}
+
+.logo {
+    height: 86px;
+}
+
+.nav-bar {
+    background-color: red;
+    height: 86px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+
+.nav-list {
+    float: right;
+    padding-top: 20px;
+}
+
+.list-item {
+    color: rgb(236, 163, 78);
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 1px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #c8a67a;
+}
+
+.main {
+    height: 500px;
+    width: 100%;
+    background-image: url('../img/cs-down-header-winter-1920px.jpg');
+}
+.list-item:hover {
+    background-color: rgb(116, 211, 248);
+    position: relative;
+}
+
+.main-text {
+    height: 80px;
+    width: 150px;
+    background-color: teal;
+    border: #c8a67a 3px solid;
+    position: absolute;
+    top: 25px;
+    left: 500px;
+    margin-top: 17px;
+    text-align: center;
+    ;
+}
+.home-section {
+    background-color: #c8a67a;
+    height: 600px;
+    width: 100%;
+    box-shadow: turquoise 2px bevel;
+}
+
+.col {
+    height: 450px;
+    width: 46%;
+    border: teal 3px solid;
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.forest {
+    width: 100%;
+    height: 450px;
+    clear: both;
+}
+.sec-text p {
+    text-align: center;
+    margin: 50px 20px 0px 20px;
+    margin-top: 12px;
+}
+
+.footer {
+    height: 90px;
+    width: 100%;
+    background-color: #2F4F4F;
+    clear: both;
+}
+
+.button-input, .social, .copy {
+width: 30%;
+float: left;
+text-align: center;
+margin: auto;
+margin-top: 25px;
+
+}
+
+button {
+padding: 7px;
+border-radius: 4px;
+}
+
+input {
+height: 22px;
+}
+
+.fab {
+font-size: 2em;
+color: #c8a67a;
+}
+
